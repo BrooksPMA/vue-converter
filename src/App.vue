@@ -108,11 +108,6 @@ export default {
       this.getCurrencies();
     },
   },
-  watch: {
-    firstCurrency() {
-      console.log('firstCurrency: ', this.firstCurrency);
-    },
-  },
   async mounted() {
     await this.getCurrencies();
   },
